@@ -5,7 +5,7 @@ function cargar(){
 	} else if(window.ActiveXObject) {
 		objHttp = new ActiveXObject("Microsoft.XMLHTTP");
 	}
-	objHttp.open("GET", "../XML/Noticias.xml", true);
+	objHttp.open("GET", "XML/Noticias.xml", true);
 	objHttp.onreadystatechange = function() {
 		if (objHttp.readyState==4) {							
 			var documento = objHttp.responseXML; 

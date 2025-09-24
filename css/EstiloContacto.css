@@ -1,0 +1,95 @@
+    /* Estilos generales */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-color: #f8f5f0;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Encabezado */
+    header {
+        background: linear-gradient(to right, #8c1515, #5c0c0c);
+        color: #ffffff;
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    /* Navegación */
+    .div_menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .boton, .botonin {
+        margin: 0 10px;
+        padding: 8px 15px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .botonin {
+        background-color: #b38b59;
+    }
+
+    .boton:hover {
+        background-color: rgba(255, 255, 255, 0.164);
+    }
+
+    .div_menu a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #map {
+        height: 60vh;
+        width: 100%;
+    }
+
+    /* Footer */
+    footer {
+        background: linear-gradient(to right, #8c1515, #5c0c0c);
+        color: #ffffff;
+        padding: 2rem;
+        text-align: center;
+        margin-top: 2rem; 
+    }
+
+    /* Patrocinadores */
+    .titulo {
+        color: #8c1515;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #b38b59;
+    }
+
+    .patrocinadores {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .img_patrocinadores {
+        width: 100px;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+    .img_patrocinadores:hover {
+        transform: scale(1.1);
+    }

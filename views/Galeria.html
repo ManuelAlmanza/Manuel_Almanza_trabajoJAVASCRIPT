@@ -1,0 +1,87 @@
+<!DOCTYPE html >
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8">
+        <title>Galería</title>
+
+        <script src="../JqueryL/jquery.js"></script>
+        <script src="../JqueryL/jquery.lightbox-0.5.js"></script>
+        <link rel="stylesheet" type="text/css" href="../JqueryL/jquery.lightbox-0.5.css" media="screen">
+        <link rel="icon" type="image/x-icon" href="../images/fotoMP.jpg">
+        <link rel="stylesheet" type="text/css" href="../css/EstiloIndex.css">
+        <link rel="icon" type="image/x-icon" href="../images/fotoMP.jpg">
+    
+        <script>
+        $(function() {
+            $('#galeria a').lightBox();
+        });
+        </script>  
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>Museo del Prado</h1>
+            </div>
+            <nav>
+                <div class="div_menu">
+                    <span id="botoninicio" class="boton">
+                        <a href="../index.html" class="div_menu">Inicio</a>
+                    </span>
+                    <span class="botonin">
+                        <a href="../views/Galeria.html" class="div_menu">Galería</a>
+                    </span>
+                    <span class="boton">
+                        <a href="../views/Presupuesto.html" class="div_menu">Presupuesto</a>
+                    </span>
+                    <span class="boton">
+                        <a href="../views/Contacto.html" class="div_menu">Contacto</a>
+                    </span>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <h2 id="example">Galería del Prado</h2>
+            <div id="galeria">
+                <a href="../JqueryL/cuadro1.jpg" title="Fusilamiento">
+                    <img src="../JqueryL/cuadro1.jpg" width="250" height="250" alt="">
+                </a>&nbsp;
+                <a href="../JqueryL/cuadro2.jpg" title="El Descendimiento">
+                    <img src="../JqueryL/cuadro2.jpg" width="250" height="250" alt="El Descendimiento">
+                </a>
+                <a href="../JqueryL/cuadro3.jpg" title="El sueño">
+                    <img src="../JqueryL/cuadro3.jpg" width="250" height="250" alt="El sueño">
+                </a>
+                <a href="../JqueryL/cuadro4.jpg" title="La Anunciación">
+                    <img src="../JqueryL/cuadro4.jpg" width="250" height="250" alt="La Anunciación">
+                </a>
+                <a href="../JqueryL/cuadro5.jpg" title="La Crucifixión">
+                    <img src="../JqueryL/cuadro5.jpg" width="250" height="250" alt="La Crucifixión">
+                </a>
+                <a href="../JqueryL/cuadro6.jpg" title="Las meninas">
+                    <img src="../JqueryL/cuadro6.jpg" width="250" height="250" alt="La meninas">
+                </a>
+            </div>
+        </section>
+        <section>
+            <h3 class="titulo">Principales patrocinadores del museo</h3>
+            <div class="patrocinadores">
+                <div class="img_bbva"><a href="https://www.bbva.es/"><img class="img_patrocinadores"
+                            src="../images/Bbva.jpg"
+                            alt="BBVA" width="100" height="100"></a></div>
+                <div class="img_telefonica"><a href="https://www.telefonica.com/"><img class="img_patrocinadores"
+                            src="../images/Telefonica.jpeg"
+                            alt="Telefónica" width="100" height="100"></a></div>
+            </div>
+        </section>
+
+        <footer class="galeria">
+            <span>Retiro, 28014 Madrid </span>
+            <br>
+            <span>Comunidad de Madrid, España</span>
+            <br>
+            <span><b>Esta página está protegida por derechos de autor</b></span>
+        </footer>
+    </body>
+</html>
